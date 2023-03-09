@@ -48,4 +48,7 @@
 * head refers to the current branch or commit that you have checked out
 * HEAD refers to the pointer to the current branch or commit
 
-test
+## Git Fetch
+retrieve code from repo
+
+``` git fetch ```
