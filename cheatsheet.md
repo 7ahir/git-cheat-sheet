@@ -48,4 +48,31 @@
 * head refers to the current branch or commit that you have checked out
 * HEAD refers to the pointer to the current branch or commit
 
-test
+## Git Remote
+* List remote repo
+
+``` git remote -v ```
+
+* Add remote repo
+
+``` git remote add origin https://github.com/tijtaj/git-cheat-sheet.git ```
+
+* Change remote URL
+
+``` git remote set-url origin https://github.com/tijtaj/git-cheat-sheet.git ```
+
+## Git Fetch
+get an update of the default remote repo, local files remain unchanged
+
+``` git fetch ```
+
+## Git Pull
+Pull command runs a fetch command to get updates from the remote(s) and then merge the update with your local version
+pull = fetch + merge
+
+``` git pull ```
+
+## Git Push
+push command is the mirror command of fetch. It updates the remote repository with your local updates.
+
+``` git push ```
